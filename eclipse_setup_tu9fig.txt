@@ -1,0 +1,11 @@
+1) Download eclipse
+http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2018-09/R/eclipse-committers-2018-09-win32-x86_64.zip
+2) Dowload selenium jar
+https://www.seleniumhq.org/ 
+3) File -> New Java Poject  (Name of the project)
+4) Right click on Java Project -> Click on Properties -> Java Build Path -> Libraries
+5) Click on Add External JARs -> All both JAR's
+6) Again click on Add External JARs -> libs (select all JAR's)
+7) Apply
+
+8) right click on src -> New -> Class
