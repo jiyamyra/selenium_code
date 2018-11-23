@@ -1,0 +1,5 @@
+E:\Devops\Eclipse\testNG_demo>
+E:\Devops\Eclipse\testNG_demo>java -cp E:\Devops\Eclipse\testNG_demo\lib\*;E:\De
+vops\Eclipse\testNG_demo\bin org.testng.TestNG src\improved_testng.xml
+
+
