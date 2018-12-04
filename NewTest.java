@@ -11,7 +11,7 @@ public class NewTest {
 		// TODO Auto-generated method stub
 	    System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
-	    driver.get("https://www.ntt.com/en/index.html");
+	    driver.get("https://www.edureka.co/");
 	    String x = driver.getCurrentUrl();
 	    System.out.println(x);
 	    Assert.assertEquals(x, "https://www.edureka.co/");
@@ -22,7 +22,7 @@ public class NewTest {
 	  
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
-		driver.get("https://www.ntt.com/en/index.html");
+		driver.get("https://www.edureka.co/");
 		String x = driver.getTitle();
 		System.out.println(x);
 		Assert.assertEquals(x, x); 
