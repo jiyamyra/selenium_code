@@ -10,9 +10,9 @@ public class ajay {
 	  
 	  System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 		FirefoxDriver driver = new FirefoxDriver();
-	    driver.get("https://www.ntt.com/en/index.html");
+	    driver.get("https://www.edureka.co/");
 	    String x = driver.getCurrentUrl();
 	    System.out.println(x);
-	    Assert.assertEquals(x, "https://www.ntt.com/en/index.html");
+	    Assert.assertEquals(x, "https://www.edureka.co/");
   }
 }
