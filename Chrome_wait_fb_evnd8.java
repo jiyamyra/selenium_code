@@ -10,8 +10,8 @@ public class Chrome_wait_fb {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
-	     ChromeDriver driver = new ChromeDriver();
-	     driver.get("http://www.facebook.com");
+	     ChromeDriver driver =  new ChromeDriver(); 
+	     driver.get("http://www.facebook.com"); // Kunal
 	     driver.manage().window().maximize();
 	     driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	    driver.findElement(By.id("u_0_j")).sendKeys("Dev");
